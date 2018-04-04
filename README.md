@@ -4,6 +4,7 @@ Demo projects repository for learning purpose
 
 If a consuming application wants to use MessageActions that the MHS Simulator does not know about, then that action needs to be added in ActionRequestResponseMapping.xml underneath Mhs.Tool.Simulator. This will ensure that the correct MessageAction response is generated for each inbound MessageAction request. For example few lines of ActionRequestResponseMapping.xml are outlined below which contains requests and responses for a MessageAction.
 
+```
 &lt;messageActions&gt; 
  &lt;requestResults&gt;
   &lt;messageAction&gt;
@@ -13,3 +14,4 @@ If a consuming application wants to use MessageActions that the MHS Simulator do
   &lt;/messageAction&gt;
  &lt;/requestResults&gt;
 &lt;/messageActions&gt;
+```
